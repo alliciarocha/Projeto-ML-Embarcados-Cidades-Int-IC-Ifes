@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-DATA_FILES_PATH = 'Analise De Dados Coletados/TESTES/dados 14_07'
-FILE_NAME = 'datalog (4).txt' 
+DATA_FILES_PATH = 'Analise De Dados Coletados/TESTES/teste'
+FILE_NAME = 'datalog (13).txt' 
 
 file_path = os.path.join(DATA_FILES_PATH, FILE_NAME)
 
