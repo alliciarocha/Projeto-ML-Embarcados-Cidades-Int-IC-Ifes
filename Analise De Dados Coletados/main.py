@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-DATA_FILES_PATH = 'Analise De Dados Coletados/TESTES/teste'
-FILE_NAME = 'datalog (13).txt' 
+DATA_FILES_PATH = 'Analise De Dados Coletados\Datas\DataLombofaixa'
+FILE_NAME = 'datalog5_resetado.csv' 
 
 file_path = os.path.join(DATA_FILES_PATH, FILE_NAME)
 
@@ -23,9 +23,9 @@ except Exception as e:
 plt.figure(figsize=(18, 12))
 
 plt.subplot(2, 1, 1)
-plt.plot(df['timestamp'], df['accX'], label='AccX', alpha=0.8)
-plt.plot(df['timestamp'], df['accY'], label='AccY', alpha=0.8)
-plt.plot(df['timestamp'], df['accZ'], label='AccZ', alpha=0.8)
+plt.plot(df['timestamp_reset'], df['accX'], label='AccX', alpha=0.8)
+plt.plot(df['timestamp_reset'], df['accY'], label='AccY', alpha=0.8)
+plt.plot(df['timestamp_reset'], df['accZ'], label='AccZ', alpha=0.8)
 plt.title('Acelerômetro')
 plt.xlabel('Timestamp')
 plt.ylabel('Aceleração')
@@ -33,9 +33,9 @@ plt.legend()
 plt.grid(True)
 
 plt.subplot(2, 1, 2)
-plt.plot(df['timestamp'], df['gyroX'], label='GyroX', alpha=0.8)
-plt.plot(df['timestamp'], df['gyroY'], label='GyroY', alpha=0.8)
-plt.plot(df['timestamp'], df['gyroZ'], label='GyroZ', alpha=0.8)
+plt.plot(df['timestamp_reset'], df['gyroX'], label='GyroX', alpha=0.8)
+plt.plot(df['timestamp_reset'], df['gyroY'], label='GyroY', alpha=0.8)
+plt.plot(df['timestamp_reset'], df['gyroZ'], label='GyroZ', alpha=0.8)
 plt.title('Giroscópio')
 plt.xlabel('Timestamp')
 plt.ylabel('Velocidade Angular')
