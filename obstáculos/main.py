@@ -2,11 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-DATA_FILES_OUTPUT = 'quebraMolaGraficos'
-DATA_FILES_PATH = 'quebraMola'
-NUM = '1'
-FILE_NAME = 'quebramola' + NUM + '.txt' 
-FILE_OUTPUT_NAME = "grafico_quebramola" + NUM + '.png' 
+#refazer 4
+DATA_FILES_OUTPUT = 'tartarugaGraficos'
+DATA_FILES_PATH = 'tartaruga'
+NUM = '10'
+FILE_NAME =  DATA_FILES_PATH + NUM + '.txt' 
+FILE_OUTPUT_NAME = "grafico_" + DATA_FILES_PATH + NUM + '.png' 
 
 file_path = os.path.join(DATA_FILES_PATH, FILE_NAME)
 
