@@ -4,7 +4,7 @@ import os
 
 DATA_FILES_OUTPUT = 'quebraMolaGraficos'
 DATA_FILES_PATH = 'quebraMola'
-NUM = '30'
+NUM = '1'
 FILE_NAME = 'quebramola' + NUM + '.txt' 
 FILE_OUTPUT_NAME = "grafico_quebramola" + NUM + '.png' 
 
