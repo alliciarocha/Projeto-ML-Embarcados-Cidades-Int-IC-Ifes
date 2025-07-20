@@ -2,10 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-#refazer 4
-DATA_FILES_OUTPUT = 'tartarugaGraficos'
-DATA_FILES_PATH = 'tartaruga'
-NUM = '10'
+DATA_FILES_OUTPUT = 'buracoMaiorGraficos'
+DATA_FILES_PATH = 'buracoMaior'
+NUM = '30'
 FILE_NAME =  DATA_FILES_PATH + NUM + '.txt' 
 FILE_OUTPUT_NAME = "grafico_" + DATA_FILES_PATH + NUM + '.png' 
 
