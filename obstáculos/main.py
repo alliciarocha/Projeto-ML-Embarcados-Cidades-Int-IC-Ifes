@@ -2,8 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-DATA_FILES_OUTPUT = 'buracoMaiorGraficos'
-DATA_FILES_PATH = 'buracoMaior'
+# 7 
+DATA_FILES_OUTPUT = 'buracoGraficos'
+DATA_FILES_PATH = 'buraco'
 NUM = '30'
 FILE_NAME =  DATA_FILES_PATH + NUM + '.txt' 
 FILE_OUTPUT_NAME = "grafico_" + DATA_FILES_PATH + NUM + '.png' 
